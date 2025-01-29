@@ -1,0 +1,106 @@
+*{
+    font-family: sans-serif;
+}
+
+#container{
+    height:100vh;
+    width:100vw;
+    background-color:gainsboro;
+    color:black;
+    display: flex;
+    flex-direction: row;
+}
+
+#image {
+    height: 100%;
+    width: 50%;
+    background-image: url('./crow.jpg');
+    background-size: cover;
+    align-content: center;
+    opacity: 0.7;
+}
+
+img {
+    height:150px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logoText{
+    font-size: 24px;
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#infoBox{
+    height:100%;
+    width:auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display:flex;
+    flex-direction: column;
+}
+
+#box-one{
+    height:100px;
+    width:700px;
+    padding: 20px;
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+
+#box-two{
+    background-color: white;
+    height: 60%;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+form{
+    display: flex;
+    justify-content:space-between;
+}
+.column-one .column-two{
+    height: 100px;
+    width: 200px;
+}
+
+#box-three{
+    height: 100%;
+    width: auto;
+    padding: 20px;
+    margin-top: 30px;
+}
+.form-one .form-two{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.form-item{
+    height: 50px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.button{
+    background-color: #9bcc53;
+    font-size: 18px;
+    padding: 12px 28px;
+    border: 1px solid black;
+    border-radius: 8px;
+
+}
+
+.button:hover {
+    background-color: yellow;
+}
+
